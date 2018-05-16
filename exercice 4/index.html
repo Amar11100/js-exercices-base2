@@ -5,11 +5,15 @@
   <title>Exercice 4</title>
 </head>
 <body>
-  <form>
-    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="Doe" id="nom" />
-    <label for="prenom">Votre prenom  : </label><input type="text" name="prenom" value="John" id="prenom" />
-    <label for="ville">Votre ville  : </label><input type="text" name="ville" value="New York" id="ville" />
-    <button type="button" name="button">RAZ</button>
+  <form id="form">
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="Doe"  />
+    <label for="prenom">Votre prenom  : </label><input type="text" name="prenom" value="John"  />
+    <label for="ville">Votre ville  : </label><input type="text" name="ville" value="New York"  />
+    <button type="buttont" name="button" onclick="suppr()" >RAZ</button>
   </form>
+  <script type="text/javascript">
+      function suppr()
+      { document.getElementById('form')}
+  </script>
 </body>
 </html>
